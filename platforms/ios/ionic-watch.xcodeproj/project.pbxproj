@@ -1,0 +1,1450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		179EDD9F8129499491E757BD /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D6BF6AD2DF4DD1AD90A26C /* UIWebViewExtension.m */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		2B558D37D7864B5B97C0A69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496903437BB849EA91C67A2F /* Foundation.framework */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */; };
+		30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */; };
+		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
+		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
+		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		7E7966E21810823500FA85AD /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		7E7966E41810823500FA85AD /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		CE520835C75F440D95B8B5BB /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A690C6A6B294653B6900320 /* CDVDevice.m */; };
+		CF2445B0D8284C77979E8856 /* libmmwormhole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72444A782A4943B899AF25D9 /* libmmwormhole.a */; };
+		D24477C51AF16C7E00B318DA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24477C41AF16C7E00B318DA /* SwiftyJSON.swift */; };
+		D24477C61AF16C9100B318DA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24477C41AF16C7E00B318DA /* SwiftyJSON.swift */; };
+		D2B04AD11AF0375500997B73 /* Blue in Resources */ = {isa = PBXBuildFile; fileRef = D2B04ACE1AF0375500997B73 /* Blue */; };
+		D2B04AD31AF0375500997B73 /* Yellow in Resources */ = {isa = PBXBuildFile; fileRef = D2B04AD01AF0375500997B73 /* Yellow */; };
+		D2B04C061AF039F400997B73 /* radial-green0.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA11AF039F400997B73 /* radial-green0.png */; };
+		D2B04C071AF039F400997B73 /* radial-green1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA21AF039F400997B73 /* radial-green1.png */; };
+		D2B04C081AF039F400997B73 /* radial-green2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA31AF039F400997B73 /* radial-green2.png */; };
+		D2B04C091AF039F400997B73 /* radial-green3.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA41AF039F400997B73 /* radial-green3.png */; };
+		D2B04C0A1AF039F400997B73 /* radial-green4.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA51AF039F400997B73 /* radial-green4.png */; };
+		D2B04C0B1AF039F400997B73 /* radial-green5.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA61AF039F400997B73 /* radial-green5.png */; };
+		D2B04C0C1AF039F400997B73 /* radial-green6.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA71AF039F400997B73 /* radial-green6.png */; };
+		D2B04C0D1AF039F400997B73 /* radial-green7.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA81AF039F400997B73 /* radial-green7.png */; };
+		D2B04C0E1AF039F400997B73 /* radial-green8.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BA91AF039F400997B73 /* radial-green8.png */; };
+		D2B04C0F1AF039F400997B73 /* radial-green9.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAA1AF039F400997B73 /* radial-green9.png */; };
+		D2B04C101AF039F400997B73 /* radial-green10.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAB1AF039F400997B73 /* radial-green10.png */; };
+		D2B04C111AF039F400997B73 /* radial-green11.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAC1AF039F400997B73 /* radial-green11.png */; };
+		D2B04C121AF039F400997B73 /* radial-green12.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAD1AF039F400997B73 /* radial-green12.png */; };
+		D2B04C131AF039F400997B73 /* radial-green13.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAE1AF039F400997B73 /* radial-green13.png */; };
+		D2B04C141AF039F400997B73 /* radial-green14.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BAF1AF039F400997B73 /* radial-green14.png */; };
+		D2B04C151AF039F400997B73 /* radial-green15.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB01AF039F400997B73 /* radial-green15.png */; };
+		D2B04C161AF039F400997B73 /* radial-green16.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB11AF039F400997B73 /* radial-green16.png */; };
+		D2B04C171AF039F400997B73 /* radial-green17.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB21AF039F400997B73 /* radial-green17.png */; };
+		D2B04C181AF039F400997B73 /* radial-green18.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB31AF039F400997B73 /* radial-green18.png */; };
+		D2B04C191AF039F400997B73 /* radial-green19.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB41AF039F400997B73 /* radial-green19.png */; };
+		D2B04C1A1AF039F400997B73 /* radial-green20.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB51AF039F400997B73 /* radial-green20.png */; };
+		D2B04C1B1AF039F400997B73 /* radial-green21.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB61AF039F400997B73 /* radial-green21.png */; };
+		D2B04C1C1AF039F400997B73 /* radial-green22.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB71AF039F400997B73 /* radial-green22.png */; };
+		D2B04C1D1AF039F400997B73 /* radial-green23.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB81AF039F400997B73 /* radial-green23.png */; };
+		D2B04C1E1AF039F400997B73 /* radial-green24.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BB91AF039F400997B73 /* radial-green24.png */; };
+		D2B04C1F1AF039F400997B73 /* radial-green25.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBA1AF039F400997B73 /* radial-green25.png */; };
+		D2B04C201AF039F400997B73 /* radial-green26.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBB1AF039F400997B73 /* radial-green26.png */; };
+		D2B04C211AF039F400997B73 /* radial-green27.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBC1AF039F400997B73 /* radial-green27.png */; };
+		D2B04C221AF039F400997B73 /* radial-green28.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBD1AF039F400997B73 /* radial-green28.png */; };
+		D2B04C231AF039F400997B73 /* radial-green29.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBE1AF039F400997B73 /* radial-green29.png */; };
+		D2B04C241AF039F400997B73 /* radial-green30.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BBF1AF039F400997B73 /* radial-green30.png */; };
+		D2B04C251AF039F400997B73 /* radial-green31.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC01AF039F400997B73 /* radial-green31.png */; };
+		D2B04C261AF039F400997B73 /* radial-green32.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC11AF039F400997B73 /* radial-green32.png */; };
+		D2B04C271AF039F400997B73 /* radial-green33.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC21AF039F400997B73 /* radial-green33.png */; };
+		D2B04C281AF039F400997B73 /* radial-green34.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC31AF039F400997B73 /* radial-green34.png */; };
+		D2B04C291AF039F400997B73 /* radial-green35.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC41AF039F400997B73 /* radial-green35.png */; };
+		D2B04C2A1AF039F400997B73 /* radial-green36.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC51AF039F400997B73 /* radial-green36.png */; };
+		D2B04C2B1AF039F400997B73 /* radial-green37.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC61AF039F400997B73 /* radial-green37.png */; };
+		D2B04C2C1AF039F400997B73 /* radial-green38.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC71AF039F400997B73 /* radial-green38.png */; };
+		D2B04C2D1AF039F400997B73 /* radial-green39.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC81AF039F400997B73 /* radial-green39.png */; };
+		D2B04C2E1AF039F400997B73 /* radial-green40.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BC91AF039F400997B73 /* radial-green40.png */; };
+		D2B04C2F1AF039F400997B73 /* radial-green41.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCA1AF039F400997B73 /* radial-green41.png */; };
+		D2B04C301AF039F400997B73 /* radial-green42.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCB1AF039F400997B73 /* radial-green42.png */; };
+		D2B04C311AF039F400997B73 /* radial-green43.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCC1AF039F400997B73 /* radial-green43.png */; };
+		D2B04C321AF039F400997B73 /* radial-green44.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCD1AF039F400997B73 /* radial-green44.png */; };
+		D2B04C331AF039F400997B73 /* radial-green45.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCE1AF039F400997B73 /* radial-green45.png */; };
+		D2B04C341AF039F400997B73 /* radial-green46.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BCF1AF039F400997B73 /* radial-green46.png */; };
+		D2B04C351AF039F400997B73 /* radial-green47.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD01AF039F400997B73 /* radial-green47.png */; };
+		D2B04C361AF039F400997B73 /* radial-green48.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD11AF039F400997B73 /* radial-green48.png */; };
+		D2B04C371AF039F400997B73 /* radial-green49.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD21AF039F400997B73 /* radial-green49.png */; };
+		D2B04C381AF039F400997B73 /* radial-green50.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD31AF039F400997B73 /* radial-green50.png */; };
+		D2B04C391AF039F400997B73 /* radial-green51.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD41AF039F400997B73 /* radial-green51.png */; };
+		D2B04C3A1AF039F400997B73 /* radial-green52.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD51AF039F400997B73 /* radial-green52.png */; };
+		D2B04C3B1AF039F400997B73 /* radial-green53.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD61AF039F400997B73 /* radial-green53.png */; };
+		D2B04C3C1AF039F400997B73 /* radial-green54.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD71AF039F400997B73 /* radial-green54.png */; };
+		D2B04C3D1AF039F400997B73 /* radial-green55.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD81AF039F400997B73 /* radial-green55.png */; };
+		D2B04C3E1AF039F400997B73 /* radial-green56.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BD91AF039F400997B73 /* radial-green56.png */; };
+		D2B04C3F1AF039F400997B73 /* radial-green57.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDA1AF039F400997B73 /* radial-green57.png */; };
+		D2B04C401AF039F400997B73 /* radial-green58.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDB1AF039F400997B73 /* radial-green58.png */; };
+		D2B04C411AF039F400997B73 /* radial-green59.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDC1AF039F400997B73 /* radial-green59.png */; };
+		D2B04C421AF039F400997B73 /* radial-green60.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDD1AF039F400997B73 /* radial-green60.png */; };
+		D2B04C431AF039F400997B73 /* radial-green61.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDE1AF039F400997B73 /* radial-green61.png */; };
+		D2B04C441AF039F400997B73 /* radial-green62.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BDF1AF039F400997B73 /* radial-green62.png */; };
+		D2B04C451AF039F400997B73 /* radial-green63.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE01AF039F400997B73 /* radial-green63.png */; };
+		D2B04C461AF039F400997B73 /* radial-green64.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE11AF039F400997B73 /* radial-green64.png */; };
+		D2B04C471AF039F400997B73 /* radial-green65.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE21AF039F400997B73 /* radial-green65.png */; };
+		D2B04C481AF039F400997B73 /* radial-green66.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE31AF039F400997B73 /* radial-green66.png */; };
+		D2B04C491AF039F400997B73 /* radial-green67.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE41AF039F400997B73 /* radial-green67.png */; };
+		D2B04C4A1AF039F400997B73 /* radial-green68.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE51AF039F400997B73 /* radial-green68.png */; };
+		D2B04C4B1AF039F400997B73 /* radial-green69.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE61AF039F400997B73 /* radial-green69.png */; };
+		D2B04C4C1AF039F400997B73 /* radial-green70.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE71AF039F400997B73 /* radial-green70.png */; };
+		D2B04C4D1AF039F400997B73 /* radial-green71.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE81AF039F400997B73 /* radial-green71.png */; };
+		D2B04C4E1AF039F400997B73 /* radial-green72.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BE91AF039F400997B73 /* radial-green72.png */; };
+		D2B04C4F1AF039F400997B73 /* radial-green73.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BEA1AF039F400997B73 /* radial-green73.png */; };
+		D2B04C501AF039F400997B73 /* radial-green74.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BEB1AF039F400997B73 /* radial-green74.png */; };
+		D2B04C511AF039F400997B73 /* radial-green75.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BEC1AF039F400997B73 /* radial-green75.png */; };
+		D2B04C521AF039F400997B73 /* radial-green76.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BED1AF039F400997B73 /* radial-green76.png */; };
+		D2B04C531AF039F400997B73 /* radial-green77.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BEE1AF039F400997B73 /* radial-green77.png */; };
+		D2B04C541AF039F400997B73 /* radial-green78.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BEF1AF039F400997B73 /* radial-green78.png */; };
+		D2B04C551AF039F400997B73 /* radial-green79.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF01AF039F400997B73 /* radial-green79.png */; };
+		D2B04C561AF039F400997B73 /* radial-green80.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF11AF039F400997B73 /* radial-green80.png */; };
+		D2B04C571AF039F400997B73 /* radial-green81.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF21AF039F400997B73 /* radial-green81.png */; };
+		D2B04C581AF039F400997B73 /* radial-green82.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF31AF039F400997B73 /* radial-green82.png */; };
+		D2B04C591AF039F400997B73 /* radial-green83.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF41AF039F400997B73 /* radial-green83.png */; };
+		D2B04C5A1AF039F400997B73 /* radial-green84.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF51AF039F400997B73 /* radial-green84.png */; };
+		D2B04C5B1AF039F400997B73 /* radial-green85.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF61AF039F400997B73 /* radial-green85.png */; };
+		D2B04C5C1AF039F400997B73 /* radial-green86.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF71AF039F400997B73 /* radial-green86.png */; };
+		D2B04C5D1AF039F400997B73 /* radial-green87.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF81AF039F400997B73 /* radial-green87.png */; };
+		D2B04C5E1AF039F400997B73 /* radial-green88.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BF91AF039F400997B73 /* radial-green88.png */; };
+		D2B04C5F1AF039F400997B73 /* radial-green89.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFA1AF039F400997B73 /* radial-green89.png */; };
+		D2B04C601AF039F400997B73 /* radial-green90.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFB1AF039F400997B73 /* radial-green90.png */; };
+		D2B04C611AF039F400997B73 /* radial-green91.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFC1AF039F400997B73 /* radial-green91.png */; };
+		D2B04C621AF039F400997B73 /* radial-green92.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFD1AF039F400997B73 /* radial-green92.png */; };
+		D2B04C631AF039F400997B73 /* radial-green93.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFE1AF039F400997B73 /* radial-green93.png */; };
+		D2B04C641AF039F400997B73 /* radial-green94.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04BFF1AF039F400997B73 /* radial-green94.png */; };
+		D2B04C651AF039F400997B73 /* radial-green95.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C001AF039F400997B73 /* radial-green95.png */; };
+		D2B04C661AF039F400997B73 /* radial-green96.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C011AF039F400997B73 /* radial-green96.png */; };
+		D2B04C671AF039F400997B73 /* radial-green97.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C021AF039F400997B73 /* radial-green97.png */; };
+		D2B04C681AF039F400997B73 /* radial-green98.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C031AF039F400997B73 /* radial-green98.png */; };
+		D2B04C691AF039F400997B73 /* radial-green99.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C041AF039F400997B73 /* radial-green99.png */; };
+		D2B04C6A1AF039F400997B73 /* radial-green100.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B04C051AF039F400997B73 /* radial-green100.png */; };
+		D2E4603F1AEE7BD300275E23 /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4603E1AEE7BD300275E23 /* testClass.m */; };
+		D2E4604A1AEE7D1700275E23 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E460491AEE7D1700275E23 /* InterfaceController.swift */; };
+		D2E4604C1AEE7D1700275E23 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4604B1AEE7D1700275E23 /* NotificationController.swift */; };
+		D2E4604E1AEE7D1700275E23 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4604D1AEE7D1700275E23 /* GlanceController.swift */; };
+		D2E460501AEE7D1700275E23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E4604F1AEE7D1700275E23 /* Images.xcassets */; };
+		D2E460541AEE7D1700275E23 /* ionic-watch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D2E460531AEE7D1700275E23 /* ionic-watch WatchKit App.app */; };
+		D2E4605C1AEE7D1700275E23 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4605A1AEE7D1700275E23 /* Interface.storyboard */; };
+		D2E4605E1AEE7D1700275E23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E4605D1AEE7D1700275E23 /* Images.xcassets */; };
+		D2E460611AEE7D1700275E23 /* ionic-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2E460441AEE7D1600275E23 /* ionic-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2E4606B1AEE7D3800275E23 /* WormholeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4606A1AEE7D3800275E23 /* WormholeWrapper.swift */; };
+		D2E4606C1AEE7D4B00275E23 /* WormholeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4606A1AEE7D3800275E23 /* WormholeWrapper.swift */; };
+		D2E4606D1AEE800400275E23 /* libmmwormhole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72444A782A4943B899AF25D9 /* libmmwormhole.a */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		F1469B8C5EAE415280F9C1A8 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 33783B04538547A288158972 /* CDVLogger.m */; };
+		F32BB1FC62C04572862EF246 /* AppleWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CB5CBC41D4FB9B83A6CA2 /* AppleWatch.m */; };
+		F81AFF4A9A5D4918A131728F /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B7E23C554A1DBFC37EB1 /* IonicKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		D2E460551AEE7D1700275E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E460521AEE7D1700275E23;
+			remoteInfo = "ionic-watch WatchKit App";
+		};
+		D2E4605F1AEE7D1700275E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E460431AEE7D1600275E23;
+			remoteInfo = "ionic-watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2E460681AEE7D1700275E23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2E460611AEE7D1700275E23 /* ionic-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A1464D3E9A04EDDB06DAEC2 /* UIWebViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewExtension.h; path = com.ionic.keyboard/UIWebViewExtension.h; sourceTree = "<group>"; };
+		0A690C6A6B294653B6900320 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
+		13A5EFAB15D84336956D5519 /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = org.apache.cordova.console/CDVLogger.h; sourceTree = "<group>"; };
+		18A2B7E23C554A1DBFC37EB1 /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = com.ionic.keyboard/IonicKeyboard.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ionic-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ionic-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h.png"; sourceTree = "<group>"; };
+		30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ionic-watch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionic-watch-Prefix.pch"; sourceTree = "<group>"; };
+		33783B04538547A288158972 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = org.apache.cordova.console/CDVLogger.m; sourceTree = "<group>"; };
+		3F3AF3A990F0465EB6D821DB /* AppleWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleWatch.h; path = uk.co.ilee.applewatch/AppleWatch.h; sourceTree = "<group>"; };
+		439B51F823924A2A98B4B70C /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = org.apache.cordova.device/CDVDevice.h; sourceTree = "<group>"; };
+		496903437BB849EA91C67A2F /* Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ADE2D3DE45A4FED8FC82666 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = uk.co.ilee.applewatch/MMWormhole.h; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		72444A782A4943B899AF25D9 /* libmmwormhole.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libmmwormhole.a; path = "ionic-watch/Plugins/uk.co.ilee.applewatch/libmmwormhole.a"; sourceTree = "<group>"; };
+		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
+		7E7966D71810823500FA85AD /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50@2x.png"; sourceTree = "<group>"; };
+		7E7966D81810823500FA85AD /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		7E7966D91810823500FA85AD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		7E7966DA1810823500FA85AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ionic-watch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ionic-watch-Info.plist"; path = "../ionic-watch-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		972CB5CBC41D4FB9B83A6CA2 /* AppleWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleWatch.m; path = uk.co.ilee.applewatch/AppleWatch.m; sourceTree = "<group>"; };
+		D209AD7E1AEE9A1100B090C4 /* ionic-watch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ionic-watch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D24477C41AF16C7E00B318DA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D2B04ACE1AF0375500997B73 /* Blue */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Blue; sourceTree = "<group>"; };
+		D2B04AD01AF0375500997B73 /* Yellow */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Yellow; sourceTree = "<group>"; };
+		D2B04BA11AF039F400997B73 /* radial-green0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green0.png"; sourceTree = "<group>"; };
+		D2B04BA21AF039F400997B73 /* radial-green1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green1.png"; sourceTree = "<group>"; };
+		D2B04BA31AF039F400997B73 /* radial-green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green2.png"; sourceTree = "<group>"; };
+		D2B04BA41AF039F400997B73 /* radial-green3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green3.png"; sourceTree = "<group>"; };
+		D2B04BA51AF039F400997B73 /* radial-green4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green4.png"; sourceTree = "<group>"; };
+		D2B04BA61AF039F400997B73 /* radial-green5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green5.png"; sourceTree = "<group>"; };
+		D2B04BA71AF039F400997B73 /* radial-green6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green6.png"; sourceTree = "<group>"; };
+		D2B04BA81AF039F400997B73 /* radial-green7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green7.png"; sourceTree = "<group>"; };
+		D2B04BA91AF039F400997B73 /* radial-green8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green8.png"; sourceTree = "<group>"; };
+		D2B04BAA1AF039F400997B73 /* radial-green9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green9.png"; sourceTree = "<group>"; };
+		D2B04BAB1AF039F400997B73 /* radial-green10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green10.png"; sourceTree = "<group>"; };
+		D2B04BAC1AF039F400997B73 /* radial-green11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green11.png"; sourceTree = "<group>"; };
+		D2B04BAD1AF039F400997B73 /* radial-green12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green12.png"; sourceTree = "<group>"; };
+		D2B04BAE1AF039F400997B73 /* radial-green13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green13.png"; sourceTree = "<group>"; };
+		D2B04BAF1AF039F400997B73 /* radial-green14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green14.png"; sourceTree = "<group>"; };
+		D2B04BB01AF039F400997B73 /* radial-green15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green15.png"; sourceTree = "<group>"; };
+		D2B04BB11AF039F400997B73 /* radial-green16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green16.png"; sourceTree = "<group>"; };
+		D2B04BB21AF039F400997B73 /* radial-green17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green17.png"; sourceTree = "<group>"; };
+		D2B04BB31AF039F400997B73 /* radial-green18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green18.png"; sourceTree = "<group>"; };
+		D2B04BB41AF039F400997B73 /* radial-green19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green19.png"; sourceTree = "<group>"; };
+		D2B04BB51AF039F400997B73 /* radial-green20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green20.png"; sourceTree = "<group>"; };
+		D2B04BB61AF039F400997B73 /* radial-green21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green21.png"; sourceTree = "<group>"; };
+		D2B04BB71AF039F400997B73 /* radial-green22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green22.png"; sourceTree = "<group>"; };
+		D2B04BB81AF039F400997B73 /* radial-green23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green23.png"; sourceTree = "<group>"; };
+		D2B04BB91AF039F400997B73 /* radial-green24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green24.png"; sourceTree = "<group>"; };
+		D2B04BBA1AF039F400997B73 /* radial-green25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green25.png"; sourceTree = "<group>"; };
+		D2B04BBB1AF039F400997B73 /* radial-green26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green26.png"; sourceTree = "<group>"; };
+		D2B04BBC1AF039F400997B73 /* radial-green27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green27.png"; sourceTree = "<group>"; };
+		D2B04BBD1AF039F400997B73 /* radial-green28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green28.png"; sourceTree = "<group>"; };
+		D2B04BBE1AF039F400997B73 /* radial-green29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green29.png"; sourceTree = "<group>"; };
+		D2B04BBF1AF039F400997B73 /* radial-green30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green30.png"; sourceTree = "<group>"; };
+		D2B04BC01AF039F400997B73 /* radial-green31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green31.png"; sourceTree = "<group>"; };
+		D2B04BC11AF039F400997B73 /* radial-green32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green32.png"; sourceTree = "<group>"; };
+		D2B04BC21AF039F400997B73 /* radial-green33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green33.png"; sourceTree = "<group>"; };
+		D2B04BC31AF039F400997B73 /* radial-green34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green34.png"; sourceTree = "<group>"; };
+		D2B04BC41AF039F400997B73 /* radial-green35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green35.png"; sourceTree = "<group>"; };
+		D2B04BC51AF039F400997B73 /* radial-green36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green36.png"; sourceTree = "<group>"; };
+		D2B04BC61AF039F400997B73 /* radial-green37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green37.png"; sourceTree = "<group>"; };
+		D2B04BC71AF039F400997B73 /* radial-green38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green38.png"; sourceTree = "<group>"; };
+		D2B04BC81AF039F400997B73 /* radial-green39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green39.png"; sourceTree = "<group>"; };
+		D2B04BC91AF039F400997B73 /* radial-green40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green40.png"; sourceTree = "<group>"; };
+		D2B04BCA1AF039F400997B73 /* radial-green41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green41.png"; sourceTree = "<group>"; };
+		D2B04BCB1AF039F400997B73 /* radial-green42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green42.png"; sourceTree = "<group>"; };
+		D2B04BCC1AF039F400997B73 /* radial-green43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green43.png"; sourceTree = "<group>"; };
+		D2B04BCD1AF039F400997B73 /* radial-green44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green44.png"; sourceTree = "<group>"; };
+		D2B04BCE1AF039F400997B73 /* radial-green45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green45.png"; sourceTree = "<group>"; };
+		D2B04BCF1AF039F400997B73 /* radial-green46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green46.png"; sourceTree = "<group>"; };
+		D2B04BD01AF039F400997B73 /* radial-green47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green47.png"; sourceTree = "<group>"; };
+		D2B04BD11AF039F400997B73 /* radial-green48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green48.png"; sourceTree = "<group>"; };
+		D2B04BD21AF039F400997B73 /* radial-green49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green49.png"; sourceTree = "<group>"; };
+		D2B04BD31AF039F400997B73 /* radial-green50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green50.png"; sourceTree = "<group>"; };
+		D2B04BD41AF039F400997B73 /* radial-green51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green51.png"; sourceTree = "<group>"; };
+		D2B04BD51AF039F400997B73 /* radial-green52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green52.png"; sourceTree = "<group>"; };
+		D2B04BD61AF039F400997B73 /* radial-green53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green53.png"; sourceTree = "<group>"; };
+		D2B04BD71AF039F400997B73 /* radial-green54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green54.png"; sourceTree = "<group>"; };
+		D2B04BD81AF039F400997B73 /* radial-green55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green55.png"; sourceTree = "<group>"; };
+		D2B04BD91AF039F400997B73 /* radial-green56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green56.png"; sourceTree = "<group>"; };
+		D2B04BDA1AF039F400997B73 /* radial-green57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green57.png"; sourceTree = "<group>"; };
+		D2B04BDB1AF039F400997B73 /* radial-green58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green58.png"; sourceTree = "<group>"; };
+		D2B04BDC1AF039F400997B73 /* radial-green59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green59.png"; sourceTree = "<group>"; };
+		D2B04BDD1AF039F400997B73 /* radial-green60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green60.png"; sourceTree = "<group>"; };
+		D2B04BDE1AF039F400997B73 /* radial-green61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green61.png"; sourceTree = "<group>"; };
+		D2B04BDF1AF039F400997B73 /* radial-green62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green62.png"; sourceTree = "<group>"; };
+		D2B04BE01AF039F400997B73 /* radial-green63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green63.png"; sourceTree = "<group>"; };
+		D2B04BE11AF039F400997B73 /* radial-green64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green64.png"; sourceTree = "<group>"; };
+		D2B04BE21AF039F400997B73 /* radial-green65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green65.png"; sourceTree = "<group>"; };
+		D2B04BE31AF039F400997B73 /* radial-green66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green66.png"; sourceTree = "<group>"; };
+		D2B04BE41AF039F400997B73 /* radial-green67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green67.png"; sourceTree = "<group>"; };
+		D2B04BE51AF039F400997B73 /* radial-green68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green68.png"; sourceTree = "<group>"; };
+		D2B04BE61AF039F400997B73 /* radial-green69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green69.png"; sourceTree = "<group>"; };
+		D2B04BE71AF039F400997B73 /* radial-green70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green70.png"; sourceTree = "<group>"; };
+		D2B04BE81AF039F400997B73 /* radial-green71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green71.png"; sourceTree = "<group>"; };
+		D2B04BE91AF039F400997B73 /* radial-green72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green72.png"; sourceTree = "<group>"; };
+		D2B04BEA1AF039F400997B73 /* radial-green73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green73.png"; sourceTree = "<group>"; };
+		D2B04BEB1AF039F400997B73 /* radial-green74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green74.png"; sourceTree = "<group>"; };
+		D2B04BEC1AF039F400997B73 /* radial-green75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green75.png"; sourceTree = "<group>"; };
+		D2B04BED1AF039F400997B73 /* radial-green76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green76.png"; sourceTree = "<group>"; };
+		D2B04BEE1AF039F400997B73 /* radial-green77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green77.png"; sourceTree = "<group>"; };
+		D2B04BEF1AF039F400997B73 /* radial-green78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green78.png"; sourceTree = "<group>"; };
+		D2B04BF01AF039F400997B73 /* radial-green79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green79.png"; sourceTree = "<group>"; };
+		D2B04BF11AF039F400997B73 /* radial-green80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green80.png"; sourceTree = "<group>"; };
+		D2B04BF21AF039F400997B73 /* radial-green81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green81.png"; sourceTree = "<group>"; };
+		D2B04BF31AF039F400997B73 /* radial-green82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green82.png"; sourceTree = "<group>"; };
+		D2B04BF41AF039F400997B73 /* radial-green83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green83.png"; sourceTree = "<group>"; };
+		D2B04BF51AF039F400997B73 /* radial-green84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green84.png"; sourceTree = "<group>"; };
+		D2B04BF61AF039F400997B73 /* radial-green85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green85.png"; sourceTree = "<group>"; };
+		D2B04BF71AF039F400997B73 /* radial-green86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green86.png"; sourceTree = "<group>"; };
+		D2B04BF81AF039F400997B73 /* radial-green87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green87.png"; sourceTree = "<group>"; };
+		D2B04BF91AF039F400997B73 /* radial-green88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green88.png"; sourceTree = "<group>"; };
+		D2B04BFA1AF039F400997B73 /* radial-green89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green89.png"; sourceTree = "<group>"; };
+		D2B04BFB1AF039F400997B73 /* radial-green90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green90.png"; sourceTree = "<group>"; };
+		D2B04BFC1AF039F400997B73 /* radial-green91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green91.png"; sourceTree = "<group>"; };
+		D2B04BFD1AF039F400997B73 /* radial-green92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green92.png"; sourceTree = "<group>"; };
+		D2B04BFE1AF039F400997B73 /* radial-green93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green93.png"; sourceTree = "<group>"; };
+		D2B04BFF1AF039F400997B73 /* radial-green94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green94.png"; sourceTree = "<group>"; };
+		D2B04C001AF039F400997B73 /* radial-green95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green95.png"; sourceTree = "<group>"; };
+		D2B04C011AF039F400997B73 /* radial-green96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green96.png"; sourceTree = "<group>"; };
+		D2B04C021AF039F400997B73 /* radial-green97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green97.png"; sourceTree = "<group>"; };
+		D2B04C031AF039F400997B73 /* radial-green98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green98.png"; sourceTree = "<group>"; };
+		D2B04C041AF039F400997B73 /* radial-green99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green99.png"; sourceTree = "<group>"; };
+		D2B04C051AF039F400997B73 /* radial-green100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radial-green100.png"; sourceTree = "<group>"; };
+		D2E460331AE9960300275E23 /* ionic-watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "ionic-watch.entitlements"; path = "ionic-watch/ionic-watch.entitlements"; sourceTree = "<group>"; };
+		D2E4603D1AEE7BD300275E23 /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
+		D2E4603E1AEE7BD300275E23 /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
+		D2E460441AEE7D1600275E23 /* ionic-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ionic-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E460471AEE7D1700275E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E460481AEE7D1700275E23 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D2E460491AEE7D1700275E23 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D2E4604B1AEE7D1700275E23 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D2E4604D1AEE7D1700275E23 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D2E4604F1AEE7D1700275E23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2E460531AEE7D1700275E23 /* ionic-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ionic-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E460591AEE7D1700275E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E4605B1AEE7D1700275E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D2E4605D1AEE7D1700275E23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2E460691AEE7D3700275E23 /* ionic-watch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ionic-watch-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2E4606A1AEE7D3800275E23 /* WormholeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WormholeWrapper.swift; sourceTree = "<group>"; };
+		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		E0D6BF6AD2DF4DD1AD90A26C /* UIWebViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewExtension.m; path = com.ionic.keyboard/UIWebViewExtension.m; sourceTree = "<group>"; };
+		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F7DCF0A5FBDE4B35860B94A6 /* IonicKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = com.ionic.keyboard/IonicKeyboard.h; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "ionic-watch/config.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				CF2445B0D8284C77979E8856 /* libmmwormhole.a in Frameworks */,
+				2B558D37D7864B5B97C0A69C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E460411AEE7D1600275E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4606D1AEE800400275E23 /* libmmwormhole.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				D2E4603D1AEE7BD300275E23 /* testClass.h */,
+				D2E4603E1AEE7BD300275E23 /* testClass.m */,
+				D2E4606A1AEE7D3800275E23 /* WormholeWrapper.swift */,
+				D2E460691AEE7D3700275E23 /* ionic-watch-Bridging-Header.h */,
+				D24477C41AF16C7E00B318DA /* SwiftyJSON.swift */,
+			);
+			name = Classes;
+			path = "ionic-watch/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ionic-watch.app */,
+				D2E460441AEE7D1600275E23 /* ionic-watch WatchKit Extension.appex */,
+				D2E460531AEE7D1700275E23 /* ionic-watch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D2E460331AE9960300275E23 /* ionic-watch.entitlements */,
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF21871DA7A0020F90C /* merges */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				D2E460451AEE7D1600275E23 /* ionic-watch WatchKit Extension */,
+				D2E460571AEE7D1700275E23 /* ionic-watch WatchKit App */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ionic-watch-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = "ionic-watch";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308D052D1370CCF300D202BF /* icons */,
+				308D05311370CCF300D202BF /* splash */,
+				8D1107310486CEB800E47090 /* ionic-watch-Info.plist */,
+			);
+			name = Resources;
+			path = "ionic-watch/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				72444A782A4943B899AF25D9 /* libmmwormhole.a */,
+				496903437BB849EA91C67A2F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				18A2B7E23C554A1DBFC37EB1 /* IonicKeyboard.m */,
+				E0D6BF6AD2DF4DD1AD90A26C /* UIWebViewExtension.m */,
+				F7DCF0A5FBDE4B35860B94A6 /* IonicKeyboard.h */,
+				0A1464D3E9A04EDDB06DAEC2 /* UIWebViewExtension.h */,
+				33783B04538547A288158972 /* CDVLogger.m */,
+				13A5EFAB15D84336956D5519 /* CDVLogger.h */,
+				0A690C6A6B294653B6900320 /* CDVDevice.m */,
+				439B51F823924A2A98B4B70C /* CDVDevice.h */,
+				972CB5CBC41D4FB9B83A6CA2 /* AppleWatch.m */,
+				3F3AF3A990F0465EB6D821DB /* AppleWatch.h */,
+				5ADE2D3DE45A4FED8FC82666 /* MMWormhole.h */,
+			);
+			name = Plugins;
+			path = "ionic-watch/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		308D052D1370CCF300D202BF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				30C1856519D5FC0A00212699 /* icon-60@3x.png */,
+				7E7966D41810823500FA85AD /* icon-40.png */,
+				7E7966D51810823500FA85AD /* icon-40@2x.png */,
+				7E7966D61810823500FA85AD /* icon-50.png */,
+				7E7966D71810823500FA85AD /* icon-50@2x.png */,
+				7E7966D81810823500FA85AD /* icon-60.png */,
+				7E7966D91810823500FA85AD /* icon-60@2x.png */,
+				7E7966DA1810823500FA85AD /* icon-76.png */,
+				7E7966DB1810823500FA85AD /* icon-76@2x.png */,
+				7E7966DC1810823500FA85AD /* icon-small.png */,
+				7E7966DD1810823500FA85AD /* icon-small@2x.png */,
+				30FC414816E50CA1004E6F35 /* icon-72@2x.png */,
+				308D052E1370CCF300D202BF /* icon-72.png */,
+				308D052F1370CCF300D202BF /* icon.png */,
+				308D05301370CCF300D202BF /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		308D05311370CCF300D202BF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */,
+				30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */,
+				30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */,
+				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
+				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
+				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
+				3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */,
+				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
+				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
+				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		D2B04BA01AF039E600997B73 /* radial-green */ = {
+			isa = PBXGroup;
+			children = (
+				D2B04BA11AF039F400997B73 /* radial-green0.png */,
+				D2B04BA21AF039F400997B73 /* radial-green1.png */,
+				D2B04BA31AF039F400997B73 /* radial-green2.png */,
+				D2B04BA41AF039F400997B73 /* radial-green3.png */,
+				D2B04BA51AF039F400997B73 /* radial-green4.png */,
+				D2B04BA61AF039F400997B73 /* radial-green5.png */,
+				D2B04BA71AF039F400997B73 /* radial-green6.png */,
+				D2B04BA81AF039F400997B73 /* radial-green7.png */,
+				D2B04BA91AF039F400997B73 /* radial-green8.png */,
+				D2B04BAA1AF039F400997B73 /* radial-green9.png */,
+				D2B04BAB1AF039F400997B73 /* radial-green10.png */,
+				D2B04BAC1AF039F400997B73 /* radial-green11.png */,
+				D2B04BAD1AF039F400997B73 /* radial-green12.png */,
+				D2B04BAE1AF039F400997B73 /* radial-green13.png */,
+				D2B04BAF1AF039F400997B73 /* radial-green14.png */,
+				D2B04BB01AF039F400997B73 /* radial-green15.png */,
+				D2B04BB11AF039F400997B73 /* radial-green16.png */,
+				D2B04BB21AF039F400997B73 /* radial-green17.png */,
+				D2B04BB31AF039F400997B73 /* radial-green18.png */,
+				D2B04BB41AF039F400997B73 /* radial-green19.png */,
+				D2B04BB51AF039F400997B73 /* radial-green20.png */,
+				D2B04BB61AF039F400997B73 /* radial-green21.png */,
+				D2B04BB71AF039F400997B73 /* radial-green22.png */,
+				D2B04BB81AF039F400997B73 /* radial-green23.png */,
+				D2B04BB91AF039F400997B73 /* radial-green24.png */,
+				D2B04BBA1AF039F400997B73 /* radial-green25.png */,
+				D2B04BBB1AF039F400997B73 /* radial-green26.png */,
+				D2B04BBC1AF039F400997B73 /* radial-green27.png */,
+				D2B04BBD1AF039F400997B73 /* radial-green28.png */,
+				D2B04BBE1AF039F400997B73 /* radial-green29.png */,
+				D2B04BBF1AF039F400997B73 /* radial-green30.png */,
+				D2B04BC01AF039F400997B73 /* radial-green31.png */,
+				D2B04BC11AF039F400997B73 /* radial-green32.png */,
+				D2B04BC21AF039F400997B73 /* radial-green33.png */,
+				D2B04BC31AF039F400997B73 /* radial-green34.png */,
+				D2B04BC41AF039F400997B73 /* radial-green35.png */,
+				D2B04BC51AF039F400997B73 /* radial-green36.png */,
+				D2B04BC61AF039F400997B73 /* radial-green37.png */,
+				D2B04BC71AF039F400997B73 /* radial-green38.png */,
+				D2B04BC81AF039F400997B73 /* radial-green39.png */,
+				D2B04BC91AF039F400997B73 /* radial-green40.png */,
+				D2B04BCA1AF039F400997B73 /* radial-green41.png */,
+				D2B04BCB1AF039F400997B73 /* radial-green42.png */,
+				D2B04BCC1AF039F400997B73 /* radial-green43.png */,
+				D2B04BCD1AF039F400997B73 /* radial-green44.png */,
+				D2B04BCE1AF039F400997B73 /* radial-green45.png */,
+				D2B04BCF1AF039F400997B73 /* radial-green46.png */,
+				D2B04BD01AF039F400997B73 /* radial-green47.png */,
+				D2B04BD11AF039F400997B73 /* radial-green48.png */,
+				D2B04BD21AF039F400997B73 /* radial-green49.png */,
+				D2B04BD31AF039F400997B73 /* radial-green50.png */,
+				D2B04BD41AF039F400997B73 /* radial-green51.png */,
+				D2B04BD51AF039F400997B73 /* radial-green52.png */,
+				D2B04BD61AF039F400997B73 /* radial-green53.png */,
+				D2B04BD71AF039F400997B73 /* radial-green54.png */,
+				D2B04BD81AF039F400997B73 /* radial-green55.png */,
+				D2B04BD91AF039F400997B73 /* radial-green56.png */,
+				D2B04BDA1AF039F400997B73 /* radial-green57.png */,
+				D2B04BDB1AF039F400997B73 /* radial-green58.png */,
+				D2B04BDC1AF039F400997B73 /* radial-green59.png */,
+				D2B04BDD1AF039F400997B73 /* radial-green60.png */,
+				D2B04BDE1AF039F400997B73 /* radial-green61.png */,
+				D2B04BDF1AF039F400997B73 /* radial-green62.png */,
+				D2B04BE01AF039F400997B73 /* radial-green63.png */,
+				D2B04BE11AF039F400997B73 /* radial-green64.png */,
+				D2B04BE21AF039F400997B73 /* radial-green65.png */,
+				D2B04BE31AF039F400997B73 /* radial-green66.png */,
+				D2B04BE41AF039F400997B73 /* radial-green67.png */,
+				D2B04BE51AF039F400997B73 /* radial-green68.png */,
+				D2B04BE61AF039F400997B73 /* radial-green69.png */,
+				D2B04BE71AF039F400997B73 /* radial-green70.png */,
+				D2B04BE81AF039F400997B73 /* radial-green71.png */,
+				D2B04BE91AF039F400997B73 /* radial-green72.png */,
+				D2B04BEA1AF039F400997B73 /* radial-green73.png */,
+				D2B04BEB1AF039F400997B73 /* radial-green74.png */,
+				D2B04BEC1AF039F400997B73 /* radial-green75.png */,
+				D2B04BED1AF039F400997B73 /* radial-green76.png */,
+				D2B04BEE1AF039F400997B73 /* radial-green77.png */,
+				D2B04BEF1AF039F400997B73 /* radial-green78.png */,
+				D2B04BF01AF039F400997B73 /* radial-green79.png */,
+				D2B04BF11AF039F400997B73 /* radial-green80.png */,
+				D2B04BF21AF039F400997B73 /* radial-green81.png */,
+				D2B04BF31AF039F400997B73 /* radial-green82.png */,
+				D2B04BF41AF039F400997B73 /* radial-green83.png */,
+				D2B04BF51AF039F400997B73 /* radial-green84.png */,
+				D2B04BF61AF039F400997B73 /* radial-green85.png */,
+				D2B04BF71AF039F400997B73 /* radial-green86.png */,
+				D2B04BF81AF039F400997B73 /* radial-green87.png */,
+				D2B04BF91AF039F400997B73 /* radial-green88.png */,
+				D2B04BFA1AF039F400997B73 /* radial-green89.png */,
+				D2B04BFB1AF039F400997B73 /* radial-green90.png */,
+				D2B04BFC1AF039F400997B73 /* radial-green91.png */,
+				D2B04BFD1AF039F400997B73 /* radial-green92.png */,
+				D2B04BFE1AF039F400997B73 /* radial-green93.png */,
+				D2B04BFF1AF039F400997B73 /* radial-green94.png */,
+				D2B04C001AF039F400997B73 /* radial-green95.png */,
+				D2B04C011AF039F400997B73 /* radial-green96.png */,
+				D2B04C021AF039F400997B73 /* radial-green97.png */,
+				D2B04C031AF039F400997B73 /* radial-green98.png */,
+				D2B04C041AF039F400997B73 /* radial-green99.png */,
+				D2B04C051AF039F400997B73 /* radial-green100.png */,
+			);
+			name = "radial-green";
+			sourceTree = "<group>";
+		};
+		D2E460451AEE7D1600275E23 /* ionic-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D209AD7E1AEE9A1100B090C4 /* ionic-watch WatchKit Extension.entitlements */,
+				D2E460491AEE7D1700275E23 /* InterfaceController.swift */,
+				D2E4604B1AEE7D1700275E23 /* NotificationController.swift */,
+				D2E4604D1AEE7D1700275E23 /* GlanceController.swift */,
+				D2E4604F1AEE7D1700275E23 /* Images.xcassets */,
+				D2E460461AEE7D1700275E23 /* Supporting Files */,
+			);
+			path = "ionic-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D2E460461AEE7D1700275E23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E460471AEE7D1700275E23 /* Info.plist */,
+				D2E460481AEE7D1700275E23 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2E460571AEE7D1700275E23 /* ionic-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D2B04BA01AF039E600997B73 /* radial-green */,
+				D2B04ACE1AF0375500997B73 /* Blue */,
+				D2B04AD01AF0375500997B73 /* Yellow */,
+				D2E4605A1AEE7D1700275E23 /* Interface.storyboard */,
+				D2E4605D1AEE7D1700275E23 /* Images.xcassets */,
+				D2E460581AEE7D1700275E23 /* Supporting Files */,
+			);
+			path = "ionic-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D2E460581AEE7D1700275E23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E460591AEE7D1700275E23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ionic-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ionic-watch" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				D2E460681AEE7D1700275E23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+				D2E460601AEE7D1700275E23 /* PBXTargetDependency */,
+			);
+			name = "ionic-watch";
+			productName = "ionic-watch";
+			productReference = 1D6058910D05DD3D006BFB54 /* ionic-watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E460431AEE7D1600275E23 /* ionic-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E460651AEE7D1700275E23 /* Build configuration list for PBXNativeTarget "ionic-watch WatchKit Extension" */;
+			buildPhases = (
+				D2E460401AEE7D1600275E23 /* Sources */,
+				D2E460411AEE7D1600275E23 /* Frameworks */,
+				D2E460421AEE7D1600275E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E460561AEE7D1700275E23 /* PBXTargetDependency */,
+			);
+			name = "ionic-watch WatchKit Extension";
+			productName = "ionic-watch WatchKit Extension";
+			productReference = D2E460441AEE7D1600275E23 /* ionic-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D2E460521AEE7D1700275E23 /* ionic-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E460621AEE7D1700275E23 /* Build configuration list for PBXNativeTarget "ionic-watch WatchKit App" */;
+			buildPhases = (
+				D2E460511AEE7D1700275E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ionic-watch WatchKit App";
+			productName = "ionic-watch WatchKit App";
+			productReference = D2E460531AEE7D1700275E23 /* ionic-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 6DGKQ44396;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D2E460431AEE7D1600275E23 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6DGKQ44396;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D2E460521AEE7D1700275E23 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ionic-watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				de,
+				se,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ionic-watch */,
+				D2E460431AEE7D1600275E23 /* ionic-watch WatchKit Extension */,
+				D2E460521AEE7D1700275E23 /* ionic-watch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7966E41810823500FA85AD /* icon-76.png in Resources */,
+				7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */,
+				308D05371370CCF300D202BF /* icon-72.png in Resources */,
+				30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */,
+				308D05381370CCF300D202BF /* icon.png in Resources */,
+				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
+				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
+				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
+				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
+				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
+				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
+				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */,
+				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
+				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
+				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
+				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
+				30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */,
+				30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */,
+				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
+				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
+				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E460421AEE7D1600275E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E460501AEE7D1700275E23 /* Images.xcassets in Resources */,
+				D2E460541AEE7D1700275E23 /* ionic-watch WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E460511AEE7D1700275E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B04C291AF039F400997B73 /* radial-green35.png in Resources */,
+				D2B04AD31AF0375500997B73 /* Yellow in Resources */,
+				D2B04C321AF039F400997B73 /* radial-green44.png in Resources */,
+				D2B04C1C1AF039F400997B73 /* radial-green22.png in Resources */,
+				D2E4605C1AEE7D1700275E23 /* Interface.storyboard in Resources */,
+				D2B04C1E1AF039F400997B73 /* radial-green24.png in Resources */,
+				D2B04C191AF039F400997B73 /* radial-green19.png in Resources */,
+				D2B04C111AF039F400997B73 /* radial-green11.png in Resources */,
+				D2B04C621AF039F400997B73 /* radial-green92.png in Resources */,
+				D2B04C4F1AF039F400997B73 /* radial-green73.png in Resources */,
+				D2B04C4D1AF039F400997B73 /* radial-green71.png in Resources */,
+				D2B04C341AF039F400997B73 /* radial-green46.png in Resources */,
+				D2B04C4B1AF039F400997B73 /* radial-green69.png in Resources */,
+				D2B04C091AF039F400997B73 /* radial-green3.png in Resources */,
+				D2B04C3D1AF039F400997B73 /* radial-green55.png in Resources */,
+				D2B04C0E1AF039F400997B73 /* radial-green8.png in Resources */,
+				D2B04C561AF039F400997B73 /* radial-green80.png in Resources */,
+				D2B04C441AF039F400997B73 /* radial-green62.png in Resources */,
+				D2B04C271AF039F400997B73 /* radial-green33.png in Resources */,
+				D2B04AD11AF0375500997B73 /* Blue in Resources */,
+				D2B04C661AF039F400997B73 /* radial-green96.png in Resources */,
+				D2B04C461AF039F400997B73 /* radial-green64.png in Resources */,
+				D2B04C3E1AF039F400997B73 /* radial-green56.png in Resources */,
+				D2B04C261AF039F400997B73 /* radial-green32.png in Resources */,
+				D2B04C3B1AF039F400997B73 /* radial-green53.png in Resources */,
+				D2B04C2A1AF039F400997B73 /* radial-green36.png in Resources */,
+				D2B04C2F1AF039F400997B73 /* radial-green41.png in Resources */,
+				D2B04C581AF039F400997B73 /* radial-green82.png in Resources */,
+				D2B04C491AF039F400997B73 /* radial-green67.png in Resources */,
+				D2B04C591AF039F400997B73 /* radial-green83.png in Resources */,
+				D2B04C101AF039F400997B73 /* radial-green10.png in Resources */,
+				D2B04C6A1AF039F400997B73 /* radial-green100.png in Resources */,
+				D2B04C121AF039F400997B73 /* radial-green12.png in Resources */,
+				D2B04C141AF039F400997B73 /* radial-green14.png in Resources */,
+				D2B04C4A1AF039F400997B73 /* radial-green68.png in Resources */,
+				D2B04C691AF039F400997B73 /* radial-green99.png in Resources */,
+				D2B04C0C1AF039F400997B73 /* radial-green6.png in Resources */,
+				D2B04C681AF039F400997B73 /* radial-green98.png in Resources */,
+				D2B04C471AF039F400997B73 /* radial-green65.png in Resources */,
+				D2B04C5C1AF039F400997B73 /* radial-green86.png in Resources */,
+				D2B04C231AF039F400997B73 /* radial-green29.png in Resources */,
+				D2B04C531AF039F400997B73 /* radial-green77.png in Resources */,
+				D2B04C181AF039F400997B73 /* radial-green18.png in Resources */,
+				D2B04C241AF039F400997B73 /* radial-green30.png in Resources */,
+				D2B04C4E1AF039F400997B73 /* radial-green72.png in Resources */,
+				D2B04C2E1AF039F400997B73 /* radial-green40.png in Resources */,
+				D2B04C631AF039F400997B73 /* radial-green93.png in Resources */,
+				D2B04C151AF039F400997B73 /* radial-green15.png in Resources */,
+				D2B04C311AF039F400997B73 /* radial-green43.png in Resources */,
+				D2B04C061AF039F400997B73 /* radial-green0.png in Resources */,
+				D2B04C411AF039F400997B73 /* radial-green59.png in Resources */,
+				D2B04C5F1AF039F400997B73 /* radial-green89.png in Resources */,
+				D2B04C071AF039F400997B73 /* radial-green1.png in Resources */,
+				D2B04C301AF039F400997B73 /* radial-green42.png in Resources */,
+				D2B04C371AF039F400997B73 /* radial-green49.png in Resources */,
+				D2B04C361AF039F400997B73 /* radial-green48.png in Resources */,
+				D2B04C501AF039F400997B73 /* radial-green74.png in Resources */,
+				D2B04C281AF039F400997B73 /* radial-green34.png in Resources */,
+				D2B04C641AF039F400997B73 /* radial-green94.png in Resources */,
+				D2B04C451AF039F400997B73 /* radial-green63.png in Resources */,
+				D2B04C2D1AF039F400997B73 /* radial-green39.png in Resources */,
+				D2B04C1A1AF039F400997B73 /* radial-green20.png in Resources */,
+				D2B04C081AF039F400997B73 /* radial-green2.png in Resources */,
+				D2B04C431AF039F400997B73 /* radial-green61.png in Resources */,
+				D2B04C221AF039F400997B73 /* radial-green28.png in Resources */,
+				D2B04C2C1AF039F400997B73 /* radial-green38.png in Resources */,
+				D2B04C171AF039F400997B73 /* radial-green17.png in Resources */,
+				D2B04C481AF039F400997B73 /* radial-green66.png in Resources */,
+				D2B04C391AF039F400997B73 /* radial-green51.png in Resources */,
+				D2B04C0A1AF039F400997B73 /* radial-green4.png in Resources */,
+				D2B04C3C1AF039F400997B73 /* radial-green54.png in Resources */,
+				D2B04C5D1AF039F400997B73 /* radial-green87.png in Resources */,
+				D2B04C601AF039F400997B73 /* radial-green90.png in Resources */,
+				D2B04C5E1AF039F400997B73 /* radial-green88.png in Resources */,
+				D2B04C651AF039F400997B73 /* radial-green95.png in Resources */,
+				D2B04C671AF039F400997B73 /* radial-green97.png in Resources */,
+				D2B04C251AF039F400997B73 /* radial-green31.png in Resources */,
+				D2B04C0B1AF039F400997B73 /* radial-green5.png in Resources */,
+				D2B04C511AF039F400997B73 /* radial-green75.png in Resources */,
+				D2B04C3F1AF039F400997B73 /* radial-green57.png in Resources */,
+				D2B04C1D1AF039F400997B73 /* radial-green23.png in Resources */,
+				D2B04C131AF039F400997B73 /* radial-green13.png in Resources */,
+				D2B04C1B1AF039F400997B73 /* radial-green21.png in Resources */,
+				D2B04C211AF039F400997B73 /* radial-green27.png in Resources */,
+				D2B04C3A1AF039F400997B73 /* radial-green52.png in Resources */,
+				D2B04C551AF039F400997B73 /* radial-green79.png in Resources */,
+				D2B04C401AF039F400997B73 /* radial-green58.png in Resources */,
+				D2B04C381AF039F400997B73 /* radial-green50.png in Resources */,
+				D2B04C1F1AF039F400997B73 /* radial-green25.png in Resources */,
+				D2B04C4C1AF039F400997B73 /* radial-green70.png in Resources */,
+				D2B04C521AF039F400997B73 /* radial-green76.png in Resources */,
+				D2B04C2B1AF039F400997B73 /* radial-green37.png in Resources */,
+				D2B04C0D1AF039F400997B73 /* radial-green7.png in Resources */,
+				D2B04C331AF039F400997B73 /* radial-green45.png in Resources */,
+				D2B04C351AF039F400997B73 /* radial-green47.png in Resources */,
+				D2B04C421AF039F400997B73 /* radial-green60.png in Resources */,
+				D2B04C0F1AF039F400997B73 /* radial-green9.png in Resources */,
+				D2B04C5A1AF039F400997B73 /* radial-green84.png in Resources */,
+				D2B04C571AF039F400997B73 /* radial-green81.png in Resources */,
+				D2B04C611AF039F400997B73 /* radial-green91.png in Resources */,
+				D2B04C5B1AF039F400997B73 /* radial-green85.png in Resources */,
+				D2B04C201AF039F400997B73 /* radial-green26.png in Resources */,
+				D2E4605E1AEE7D1700275E23 /* Images.xcassets in Resources */,
+				D2B04C541AF039F400997B73 /* radial-green78.png in Resources */,
+				D2B04C161AF039F400997B73 /* radial-green16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				D24477C51AF16C7E00B318DA /* SwiftyJSON.swift in Sources */,
+				F81AFF4A9A5D4918A131728F /* IonicKeyboard.m in Sources */,
+				D2E4603F1AEE7BD300275E23 /* testClass.m in Sources */,
+				D2E4606B1AEE7D3800275E23 /* WormholeWrapper.swift in Sources */,
+				179EDD9F8129499491E757BD /* UIWebViewExtension.m in Sources */,
+				F1469B8C5EAE415280F9C1A8 /* CDVLogger.m in Sources */,
+				CE520835C75F440D95B8B5BB /* CDVDevice.m in Sources */,
+				F32BB1FC62C04572862EF246 /* AppleWatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E460401AEE7D1600275E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4604C1AEE7D1700275E23 /* NotificationController.swift in Sources */,
+				D2E4604A1AEE7D1700275E23 /* InterfaceController.swift in Sources */,
+				D2E4606C1AEE7D4B00275E23 /* WormholeWrapper.swift in Sources */,
+				D24477C61AF16C9100B318DA /* SwiftyJSON.swift in Sources */,
+				D2E4604E1AEE7D1700275E23 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		D2E460561AEE7D1700275E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E460521AEE7D1700275E23 /* ionic-watch WatchKit App */;
+			targetProxy = D2E460551AEE7D1700275E23 /* PBXContainerItemProxy */;
+		};
+		D2E460601AEE7D1700275E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E460431AEE7D1600275E23 /* ionic-watch WatchKit Extension */;
+			targetProxy = D2E4605F1AEE7D1700275E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E4605A1AEE7D1700275E23 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E4605B1AEE7D1700275E23 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "ionic-watch/ionic-watch.entitlements";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ionic-watch/ionic-watch-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ionic-watch/ionic-watch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ionic-watch/Plugins/uk.co.ilee.applewatch\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "ionic-watch";
+				SWIFT_OBJC_BRIDGING_HEADER = "ionic-watch/Classes/ionic-watch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "ionic-watch/ionic-watch.entitlements";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ionic-watch/ionic-watch-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "ionic-watch/ionic-watch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ionic-watch/Plugins/uk.co.ilee.applewatch\"",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "ionic-watch";
+				SWIFT_OBJC_BRIDGING_HEADER = "ionic-watch/Classes/ionic-watch-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		D2E460631AEE7D1700275E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IBSC_MODULE = ionic_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "ionic-watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D2E460641AEE7D1700275E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IBSC_MODULE = ionic_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "ionic-watch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E460661AEE7D1700275E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ionic-watch WatchKit Extension/ionic-watch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ionic-watch WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ionic-watch/Plugins/uk.co.ilee.applewatch",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ionic-watch/Classes/ionic-watch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2E460671AEE7D1700275E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ionic-watch WatchKit Extension/ionic-watch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ionic-watch WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ionic-watch/Plugins/uk.co.ilee.applewatch",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ionic-watch/Classes/ionic-watch-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ionic-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ionic-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E460621AEE7D1700275E23 /* Build configuration list for PBXNativeTarget "ionic-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E460631AEE7D1700275E23 /* Debug */,
+				D2E460641AEE7D1700275E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E460651AEE7D1700275E23 /* Build configuration list for PBXNativeTarget "ionic-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E460661AEE7D1700275E23 /* Debug */,
+				D2E460671AEE7D1700275E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
